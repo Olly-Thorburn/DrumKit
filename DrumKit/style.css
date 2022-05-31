@@ -1,0 +1,65 @@
+*{
+    text-align: center;
+    cursor: crosshair;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+
+
+body {
+    background-image: url("Images/DrumKit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    height: auto;
+    gap: 1rem
+    
+}
+
+.box {
+    color: black;
+
+    padding: 10px;
+    border: 10px black solid;
+    margin: 10px;
+
+    margin: 50px;
+    height: 100px;
+    width: 100px;
+
+    background-color: transparent;
+}
+
+.hihat{
+    background-color: brown;
+   
+}
+
+.box p{
+    color: green;
+}
+.box h2{
+    color: green;
+}
+
+
+
+
+
